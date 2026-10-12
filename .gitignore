@@ -25,3 +25,6 @@ test_data/
 # ---------- OS / editor noise ----------
 .DS_Store
 Thumbs.db
+
+# ---------- local WorkBuddy memory (not for repo) ----------
+.workbuddy/
