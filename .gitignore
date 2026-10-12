@@ -1,0 +1,27 @@
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments (never commit)
+rag_env/
+.venv/
+venv/
+
+# ---------- Generated / runtime artifacts ----------
+chroma_db/
+storage/
+test_data/
+
+# ---------- SVN working copies & large data dumps ----------
+.data/
+.svn/
+
+# ---------- Archives & binaries ----------
+*.zip
+*.exe
+*.bin
+
+# ---------- OS / editor noise ----------
+.DS_Store
+Thumbs.db
